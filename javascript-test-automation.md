@@ -51,6 +51,9 @@ Also:
     * [Wallaby.js](https://wallabyjs.com/) - Wallaby.js runs your JavaScript tests immediately as you type and displays execution results in your code editor. It also provides live test execution and code coverage reports.
     * [Jest](https://facebook.github.io/jest/) - Jest is used by Facebook to test all JavaScript code including React applications. One of Jest's philosophies is to provide an integrated "zero-configuration" experience. We observed that when engineers are provided with ready-to-use tools, they end up writing more tests, which in turn results in more stable and healthy code bases.
     * [GlaceJS](https://glacejs.github.io/glace-core) - quick-start functional testing framework based on [mocha](http://mochajs.org/) and extensible with [plugins](https://github.com/glacejs).
+    * [Apickli](https://github.com/apickli/apickli) - REST API integration testing framework based on cucumber.js
+    * [Mocha Parallel Tests](https://github.com/mocha-parallel/mocha-parallel-tests) - mocha-parallel-tests is a test runner for tests written with mocha testing framework which allows you to run them in parallel.
+    * [Tupe](https://github.com/jl-/tupe) - A generic unit-testing runner for front-end built on puppeteer.
 
 ## Mock frameworks
 * [Sinon.JS](http://sinonjs.org/) - Standalone test spies, stubs and mocks for JavaScript.
@@ -89,10 +92,14 @@ No dependencies, works with any unit testing framework.
 * [Mailosaur](https://github.com/mailosaur/mailosaur-node) - Node.js client for email testing/automation via Mailosaur.
 * [Cypress.io](https://github.com/cypress-io/cypress) - Fast, easy and reliable testing for anything that runs in a browser. Runs on Mac, Linux, Windows and any CI.
 * [Differencify](https://github.com/NimaSoroush/differencify) - A library for visual regression testing using [Puppeteer](https://github.com/GoogleChrome/puppeteer).
+* [Serenity/JS](https://serenity-js.org/) - Serenity/JS makes acceptance and regression testing of modern web apps faster, more collaborative and easier to scale.
+* [Chimpy.js](https://thebrainfamily.github.io/chimpy/) - An awesome developer-centric experience to writing tests with realtime feedback using Mocha, Jasmine or Cucumber.js
 
 ## Mobile test automation
 * [WebdriverIO's Appium implementation](http://webdriver.io/api/appium/backgroundApp.html) - nodejs bindings implemeting Appium commands.
 * [Macaca](https://macacajs.com/) - Solution for Automation Test with Ease. Both Mobile, Desktop Platforms Supported, native, Hybrid, Mobile Web Multi-applications Supported, Command line tools & CI Solution provided.
+* [Detox](https://github.com/wix/Detox) - Gray Box End-to-End Testing and Automation Framework for Mobile Apps 
+* [Cavy](https://github.com/pixielabs/cavy) - Cavy is a cross-platform integration test framework for React Native, by Pixie Labs.
 
 ## Windows UI test automation
 * [RobotJS](https://robotjs.io/) - The Node.js Desktop Automation Library
@@ -132,6 +139,8 @@ No dependencies, works with any unit testing framework.
 * [Blanket](http://blanketjs.org/) - JavaScript code coverage library that works both in-browser and with nodejs.
 * [Mochawesome](https://github.com/adamgruber/mochawesome) - reporter for Mocha that generates a full fledged HTML/CSS report that helps visualize your test suites
 * [Allure](http://allure.qatools.ru/) - a universal reporter for any testing framework. Supports [Mocha](https://docs.qameta.io/allure/2.0/#_mocha) and [Jasmine (and Protractor)](https://docs.qameta.io/allure/2.0/#_jasmine)
+* [cucumber-html-reporter](https://www.npmjs.com/package/cucumber-html-reporter) - Provide Cucumber JSON report file created from your framework and this module will create pretty HTML reports. Choose your best suitable HTML theme and dashboard on your CI with available HTML reporter plugins.
+* [Coveralls GitHub Action](https://github.com/gavinhenderson/coveralls-action) - A GitHub Action that will automatically report your latest test results to coveralls
 
 ## Documentation generation
 * [JSdoc3](http://usejsdoc.org/) - An API documentation generator for JavaScript

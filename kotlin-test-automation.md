@@ -7,6 +7,8 @@ A comprehensive curated list of Kotlin test automation frameworks, tools, librar
 Table of content:
 
 - [Web UI test automation](#web-ui-test-automation)
+- [TDD \ ATTD \ BDD](#tdd--atdd--bdd)
+- [API test automation](#api-test-automation)
 - [Editors, IDE and consoles](#editors-ide-consoles)
 - [Useful libs](#useful-libs)
 
@@ -27,6 +29,13 @@ Also:
     * [SeleniumBuilder](https://github.com/qwertukg/SeleniumBuilder) - Kotlin DSL for Selenium 2.0. Provide a possibility to write tests in Kotlin type-safe builders style
     * [kirk](https://github.com/SergeyPirogov/kirk) - Kirk is a browser automation library for Kotlin. It's basically a Selenium-WebDriver wrapper library inspired by Selenide and Geb.
 
+## TDD \ ATTD \ BDD
+
+* [Kukumber](https://github.com/mlvandijk/kukumber-skeleton) - Getting started with Cucumber in Kotlin.
+
+## API test automation
+
+* [hikaku](https://github.com/codecentric/hikaku) - A library that tests if the implementation of a REST-API meets its specification.
 
 ## Editors, IDE, consoles
 

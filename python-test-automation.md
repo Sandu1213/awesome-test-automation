@@ -59,7 +59,8 @@ Also:
     * [green](https://github.com/CleanCut/green) - Green is a clean, colorful test runner for Python unit tests. Compare it to nose or trial.
     * [ddt](https://github.com/txels/ddt) - Data-Driven tests with unittest
     * [pytractor](https://github.com/kpodl/pytractor) is an extension to the Selenium bindings for Python. Its goal is to make testing of angular.js applications easier with Python.
-
+    * [stestr](https://github.com/mtreinish/stestr) - A parallel Python test runner built around subunit.
+    
 
 ## TDD \ ATDD \ BDD
 
@@ -122,7 +123,7 @@ Also:
 - frameworks and wrappers
     * [py.saunter](https://github.com/element-34/py.saunter) - An opinionated automation framework for use with the Selenium RC and WebDriver libraries.
     * [moz-web-qa](https://github.com/mozilla/pytest-mozwebqa) - A plugin for py.test that provides additional features needed for Mozilla's WebQA projects.
-    * [testutils sst](http://testutils.org/sst) - A web test framework that uses Python to generate functional browser-based tests.
+    * [testutils sst](https://pypi.org/project/sst/) - A web test framework that uses Python to generate functional browser-based tests.
     * [wtframework](https://github.com/wiredrive/wtframework) - Framework for configurable Web Tests in Python.
     * [holmium.core](https://github.com/alisaifee/holmium.core) - Page objects & Utilities for writing selenium test cases.
     * [robotframework-selenium2library](https://github.com/rtomac/robotframework-selenium2library) - Web testing library for Robot Framework.
@@ -143,6 +144,7 @@ Also:
     * [navmazing](https://github.com/nextQE/navmazing) - PageObjects based navigation from RedHat
     * [nightwatch](https://github.com/nextQE/nightwatch) - UI Automated Testing Framework using Python and Selenium. Influenced by nightwatch.js
 	* [seleniumbase](https://github.com/seleniumbase/SeleniumBase) - A simple Python framework for building test automation with Selenium WebDriver. It depends on pytest or noose modules to run. When used with noose a HTML report can be generated in the end of the test run.
+	* [Toolium](https://github.com/Telefonica/toolium) - Toolium is a Python wrapper tool of Selenium and Appium libraries to test web and mobile applications in a single project. It provides a way of choosing and configuring the driver through a configuration file, implements a Page Object pattern and includes a simple visual testing solution.
 - extensions
     * [webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager) - The main idea is to simplify managemet of binary drivers for different browsers.
     * [pytest_splinter](https://github.com/pytest-dev/pytest-splinter) - pytest spinter and selenium integration for anyone interested in browser interaction in tests.
@@ -153,6 +155,9 @@ Also:
     * [Selenium-Requests](https://github.com/cryzed/Selenium-Requests) - Extends Selenium WebDriver classes to include the request function from the Requests library, while doing all the needed cookie and request headers handling.
     * [selenium-respectful](https://github.com/SerpentAI/selenium-respectful) - Minimalist Selenium WebDriver wrapper to work within rate limits of any amount of websites simultaneously. Parallel processing friendly.
     * [Mailosaur](https://github.com/mailosaur/mailosaur-python) - Python client for email testing/automation via Mailosaur.
+    * [gauge](https://github.com/getgauge/gauge) - Gauge is a light weight cross-platform test automation tool. It provides the ability to author test cases in the business language, actually written in golang with [python language driver](https://github.com/getgauge/gauge-python).
+    * [Golem](https://github.com/lucianopuccio/golem) - Golem is a complete test automation tool and framework for end-to-end testing. It creates powerful, robust and maintainable test suites, it's easy to learn even without a lot of programming knowledge. It is based on Selenium Webdriver and it can be extended using Python
+
 ## Mobile test automation
 
 * [appium](http://appium.io/) - An open source test automation framework for use with native, hybrid and mobile web apps. It drives iOS and Android apps using the WebDriver protocol.
@@ -162,6 +167,7 @@ Also:
 * [robotframework-ioslibrary](https://github.com/lovelysystems/robotframework-ioslibrary) - A Robot Framework test library for all your iOS automation needs.
 * [uiautomator](https://github.com/xiaocong/uiautomator) - Python wrapper of Android uiautomator test tool, it works on Android 4.1+ simply with Android device attached via adb.
 * [ATX](https://github.com/NetEaseGame/ATX) - Smart phone automation tool. Support iOS, Android, WebApp and game.
+* [Airtest](https://github.com/AirtestProject/Airtest) - Airtest is a cross-platform automated testing framework focusing mainly on games, but can also be used for native apps.
 
 ## Windows UI test automation
 
@@ -187,6 +193,7 @@ Also:
 * [SikuliX](http://sikulix.com/) - OpenCV based GUI test framework that uses image recognision to locate item to interact with, script from python 2.7.
 
 ## REST API Testing
+
 * [Rester](https://github.com/chitamoor/rester) - Framework for testing (RESTful) HTTP APIs
 * [pyresttest](https://github.com/svanoort/pyresttest) - A REST testing and API microbenchmarking tool
 * [siesta](http://scastillo.github.com/siesta) - Python REST Client
@@ -220,6 +227,9 @@ Also:
 * [sparta](http://sparta.secforce.com/) - A GUI application which simplifies network infrastructure penetration testing by aiding the penetration tester in the scanning and enumeration phase.
 * [OWASP ZAP](https://code.google.com/p/zaproxy/wiki/ApiPython) - An API for the usage of OWASP ZAP-features from a Python-script.
 * [pythem](https://github.com/m4n3dw0lf/PytheM) - pythem is a multi-purpose pentest framework written in Python. It has been developed to be used by security researchers and security professionals. The tool intended to be used only for acts within the law. I am not liable for any undue and unlawful act practiced by this tool, for more information, read the license. Only runs on GNU/Linux OS.
+* [SQLMap](https://github.com/sqlmapproject/sqlmap) - sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester and a broad range of switches lasting from database fingerprinting, over data fetching from the database, to accessing the underlying file system and executing commands on the operating system via out-of-band connections.
+* [fsociety](https://github.com/Manisso/fsociety) - A Penetration Testing Framework, you will have every script that a hacker needs.
+
 
 ## Continuous Integration
 
@@ -246,6 +256,7 @@ Also:
 * [pydev](http://pydev.org/) - Full featured python ide based on eclipse
 * [sublime](http://sublimetext.com/) - A sophisticated text editor for code, markup and prose.
 * [ipython](http://ipython.org/) - A command shell for interactive computing in multiple programming languages, originally developed for the Python programming language
+* [VSCode](https://code.visualstudio.com/) - Very Neat Editor for python with loads of plugins
 
 ## Useful libs
 
@@ -276,10 +287,14 @@ Libraries that may help you to build better test automation.
 * [Spyne](http://spyne.io/) - Spyne is a Python RPC toolkit that makes it easy to expose online services that have a well-defined API using multiple protocols and transports.
 * [Pexpect](https://pexpect.readthedocs.io/en/stable/) - Pexpect makes Python a better tool for controlling other applications.
 * [devtools-proxy](https://github.com/bayandin/devtools-proxy) - Proxy for Chrome DevTools. Fully compatible with Selenium and ChromeDriver
+* [extratools](https://www.chuancong.site/extratools/) - 145+ extra higher-level functional tools that go beyond standard library’s itertools, functools, etc. and popular third-party libraries like toolz, fancy, and more-itertools.
+* [retrying](https://github.com/rholder/retrying) - Retrying is an Apache 2.0 licensed general-purpose retrying library, written in Python, to simplify the task of adding retry behavior to just about anything. 
+* [mitmproxy](https://mitmproxy.org/) - mitmproxy is a free and open source interactive HTTPS proxy. 
 
 # Resources
 Where to discover new libraries, information, tools, etc.
 * [python books](https://github.com/Junnplus/awesome-python-books)
+* [pytest-tricks](https://github.com/hackebrot/pytest-tricks) - Tips and Tricks for the Python Testing Tool - http://hackebrot.github.io/pytest-tricks/
 
 ## Websites
 
